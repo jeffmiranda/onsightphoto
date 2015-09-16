@@ -6,7 +6,7 @@
 !/config.codekit
 !/assets
 /assets/components/
-/assets/img/
+/assets/img/*
 /assets/uploads/
 /assets/scss/.sass-cache/
 /connectors/
