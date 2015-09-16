@@ -9,5 +9,10 @@
 /assets/img/
 /assets/uploads/
 /assets/scss/.sass-cache/
+/connectors/
+/core/
+/manager/
+/setup/
+/setup-BACKUP/
 !/onsightphoto
 /onsightphoto/config.core.php
