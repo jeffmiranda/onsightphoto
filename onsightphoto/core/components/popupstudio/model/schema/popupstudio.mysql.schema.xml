@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="popupstudio" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.0">
+    <object class="popEvent" table="event" extends="xPDOSimpleObject">
+        <field key="name" dbtype="varchar" precision="100" phptype="string" null="false" default=""/>
+        <field key="default_inv_markup" dbtype="decimal" precision="4,3" attributes="unsigned" phptype="float" null="false" default="1.000"/>
+        <field key="default_tax" dbtype="decimal" precision="4,3" attributes="unsigned" phptype="float" null="false" default="0.000"/>
+        <field key="active" dbtype="tinyint" precision="1" phptype="integer" attributes="unsigned" null="false" default="1" />
+        <field key="date_created" dbtype="date" phptype="date" null="false" />
+		<field key="last_modified" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP" extra="on update current_timestamp" />
+    </object>
+</model>
