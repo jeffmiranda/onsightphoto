@@ -1,45 +1,52 @@
 <?php
-$xpdo_meta_map['popEvent']= array (
+$xpdo_meta_map['popEventGroup']= array (
   'package' => 'popupstudio',
   'version' => '1.1',
-  'table' => 'events',
+  'table' => 'event_groups',
   'extends' => 'xPDOSimpleObject',
   'fields' => 
   array (
+    'event_id' => NULL,
+    'parent' => NULL,
     'name' => NULL,
-    'default_inv_markup' => 1,
-    'default_tax' => 0,
+    'rank' => NULL,
     'active' => 1,
     'date_created' => NULL,
     'last_modified' => 'CURRENT_TIMESTAMP',
   ),
   'fieldMeta' => 
   array (
+    'event_id' => 
+    array (
+      'dbtype' => 'int',
+      'precision' => '10',
+      'attributes' => 'unsigned',
+      'phptype' => 'integer',
+      'null' => false,
+    ),
+    'parent' => 
+    array (
+      'dbtype' => 'int',
+      'precision' => '10',
+      'attributes' => 'unsigned',
+      'phptype' => 'integer',
+      'null' => false,
+      'index' => 'index',
+    ),
     'name' => 
     array (
       'dbtype' => 'varchar',
       'precision' => '100',
       'phptype' => 'string',
       'null' => false,
-      'index' => 'unique',
     ),
-    'default_inv_markup' => 
+    'rank' => 
     array (
-      'dbtype' => 'decimal',
-      'precision' => '4,3',
+      'dbtype' => 'int',
+      'precision' => '10',
       'attributes' => 'unsigned',
-      'phptype' => 'float',
+      'phptype' => 'integer',
       'null' => false,
-      'default' => 1,
-    ),
-    'default_tax' => 
-    array (
-      'dbtype' => 'decimal',
-      'precision' => '4,3',
-      'attributes' => 'unsigned',
-      'phptype' => 'float',
-      'null' => false,
-      'default' => 0,
     ),
     'active' => 
     array (
@@ -67,15 +74,21 @@ $xpdo_meta_map['popEvent']= array (
   ),
   'indexes' => 
   array (
-    'name' => 
+    'parentrank' => 
     array (
-      'alias' => 'name',
+      'alias' => 'parentrank',
       'primary' => false,
       'unique' => true,
       'type' => 'BTREE',
       'columns' => 
       array (
-        'name' => 
+        'parent' => 
+        array (
+          'length' => '',
+          'collation' => 'A',
+          'null' => false,
+        ),
+        'rank' => 
         array (
           'length' => '',
           'collation' => 'A',
@@ -86,13 +99,32 @@ $xpdo_meta_map['popEvent']= array (
   ),
   'composites' => 
   array (
-    'EventGroup' => 
+    'Children' => 
     array (
       'class' => 'popEventGroup',
       'local' => 'id',
-      'foreign' => 'event_id',
+      'foreign' => 'parent',
       'cardinality' => 'many',
       'owner' => 'local',
+    ),
+  ),
+  'aggregates' => 
+  array (
+    'Parent' => 
+    array (
+      'class' => 'popEventGroup',
+      'local' => 'parent',
+      'foreign' => 'id',
+      'cardinality' => 'one',
+      'owner' => 'foreign',
+    ),
+    'Event' => 
+    array (
+      'class' => 'popEvent',
+      'local' => 'event_id',
+      'foreign' => 'id',
+      'cardinality' => 'one',
+      'owner' => 'foreign',
     ),
   ),
 );

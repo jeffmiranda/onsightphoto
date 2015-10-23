@@ -1,45 +1,41 @@
 <?php
-$xpdo_meta_map['popEvent']= array (
+$xpdo_meta_map['popPhoto']= array (
   'package' => 'popupstudio',
   'version' => '1.1',
-  'table' => 'events',
+  'table' => 'photos',
   'extends' => 'xPDOSimpleObject',
   'fields' => 
   array (
-    'name' => NULL,
-    'default_inv_markup' => 1,
-    'default_tax' => 0,
+    'event_id' => NULL,
+    'src_folder' => NULL,
+    'src_filenname' => NULL,
     'active' => 1,
     'date_created' => NULL,
     'last_modified' => 'CURRENT_TIMESTAMP',
   ),
   'fieldMeta' => 
   array (
-    'name' => 
+    'event_id' => 
+    array (
+      'dbtype' => 'int',
+      'precision' => '10',
+      'attributes' => 'unsigned',
+      'phptype' => 'integer',
+      'null' => false,
+    ),
+    'src_folder' => 
     array (
       'dbtype' => 'varchar',
       'precision' => '100',
       'phptype' => 'string',
       'null' => false,
-      'index' => 'unique',
     ),
-    'default_inv_markup' => 
+    'src_filenname' => 
     array (
-      'dbtype' => 'decimal',
-      'precision' => '4,3',
-      'attributes' => 'unsigned',
-      'phptype' => 'float',
+      'dbtype' => 'varchar',
+      'precision' => '100',
+      'phptype' => 'string',
       'null' => false,
-      'default' => 1,
-    ),
-    'default_tax' => 
-    array (
-      'dbtype' => 'decimal',
-      'precision' => '4,3',
-      'attributes' => 'unsigned',
-      'phptype' => 'float',
-      'null' => false,
-      'default' => 0,
     ),
     'active' => 
     array (
@@ -65,34 +61,26 @@ $xpdo_meta_map['popEvent']= array (
       'extra' => 'on update current_timestamp',
     ),
   ),
-  'indexes' => 
-  array (
-    'name' => 
-    array (
-      'alias' => 'name',
-      'primary' => false,
-      'unique' => true,
-      'type' => 'BTREE',
-      'columns' => 
-      array (
-        'name' => 
-        array (
-          'length' => '',
-          'collation' => 'A',
-          'null' => false,
-        ),
-      ),
-    ),
-  ),
   'composites' => 
   array (
-    'EventGroup' => 
+    'GroupPhoto' => 
     array (
-      'class' => 'popEventGroup',
+      'class' => 'popGroupPhoto',
       'local' => 'id',
-      'foreign' => 'event_id',
+      'foreign' => 'photo_id',
       'cardinality' => 'many',
       'owner' => 'local',
+    ),
+  ),
+  'aggregates' => 
+  array (
+    'Event' => 
+    array (
+      'class' => 'popEvent',
+      'local' => 'event_id',
+      'foreign' => 'id',
+      'cardinality' => 'one',
+      'owner' => 'foreign',
     ),
   ),
 );

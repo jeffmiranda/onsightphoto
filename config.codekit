@@ -27879,11 +27879,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/onsightphoto\/_build\/build.schema.php": {
+	"\/onsightphoto\/_build\/build.modelfromschema.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/onsightphoto\/_build\/build.schema.php",
+		"inputAbbreviatedPath": "\/onsightphoto\/_build\/build.modelfromschema.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/_build\/build.schemafromdb.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/_build\/build.schemafromdb.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -27902,6 +27911,555 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/elements\/snippets\/snippet.popupstudio.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/eventgroups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/eventgroups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/events.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/events.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/metadata.mysql.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/metadata.mysql.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/eventgroups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/eventgroups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/eventgroups.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/eventgroups.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/events.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/events.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/events.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1443916297\/mysql\/events.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/eventgroups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/eventgroups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/events.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/events.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/metadata.mysql.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/metadata.mysql.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/eventgroups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/eventgroups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/eventgroups.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/eventgroups.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/events.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/events.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/events.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445577532\/mysql\/events.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/eventgroups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/eventgroups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/events.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/events.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/groupphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/groupphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/groups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/groups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/manifestgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/manifestgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/manifests.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/manifests.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/metadata.mysql.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/metadata.mysql.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/eventgroups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/eventgroups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/eventgroups.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/eventgroups.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/events.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/events.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/events.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/events.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groupphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groupphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groupphoto.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groupphoto.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groups.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groups.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groups.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/groups.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifestgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifestgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifestgroup.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifestgroup.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifests.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifests.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifests.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/manifests.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/photos.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/photos.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/photos.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/mysql\/photos.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/photos.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445637845\/photos.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/metadata.mysql.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/metadata.mysql.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popevent.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popevent.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popevent.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popevent.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popeventgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popeventgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popeventgroup.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popeventgroup.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroup.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroup.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroupphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroupphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroupphoto.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popgroupphoto.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifest.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifest.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifest.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifest.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifestgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifestgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifestgroup.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmanifestgroup.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmoduser.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmoduser.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmoduser.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popmoduser.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popphoto.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/mysql\/popphoto.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popevent.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popevent.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popeventgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popeventgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popgroupphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popgroupphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popmanifest.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popmanifest.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popmanifestgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popmanifestgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popmoduser.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popmoduser.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio-1445638903\/popphoto.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -27933,11 +28491,200 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popeventgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popeventgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popeventgroup.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popeventgroup.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroup.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroup.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroupphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroupphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroupphoto.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popgroupphoto.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifest.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifest.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifest.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifest.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifestgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifestgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifestgroup.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmanifestgroup.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmoduser.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmoduser.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmoduser.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popmoduser.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popphoto.map.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/mysql\/popphoto.map.inc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popevent.class.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popevent.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popeventgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popeventgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popgroupphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popgroupphoto.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popmanifest.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popmanifest.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popmanifestgroup.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popmanifestgroup.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popmoduser.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popmoduser.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popphoto.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/onsightphoto\/core\/components\/popupstudio\/model\/popupstudio\/popphoto.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
