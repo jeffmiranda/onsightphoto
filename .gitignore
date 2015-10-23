@@ -16,3 +16,5 @@
 /setup-BACKUP/
 !/onsightphoto
 /onsightphoto/config.core.php
+/onsightphoto/core/components/popupstudio/model/popupstudio-*/
+/onsightphoto/core/components/popupstudio/model/schema/popupstudio.mysql.schema.xml-*
