@@ -7,7 +7,7 @@ $xpdo_meta_map['popEvent']= array (
   'fields' => 
   array (
     'name' => NULL,
-    'default_inv_markup' => 1,
+    'default_inv_markup' => 0,
     'default_tax' => 0,
     'active' => 1,
     'date_created' => NULL,
@@ -30,7 +30,7 @@ $xpdo_meta_map['popEvent']= array (
       'attributes' => 'unsigned',
       'phptype' => 'float',
       'null' => false,
-      'default' => 1,
+      'default' => 0,
     ),
     'default_tax' => 
     array (

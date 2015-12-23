@@ -57,7 +57,7 @@ $verbose = true;        // if true, will print status info.
 // If you have spent time adding in composite/aggregate relationships to your
 // XML schema file (i.e. foreign key relationships), then you may want to set this
 // to 'false' in order to preserve your custom modifications.
-$regenerate_schema = false;
+$regenerate_schema = true;
  
 // Class files are not overwritten by default
 $regenerate_classes = true;

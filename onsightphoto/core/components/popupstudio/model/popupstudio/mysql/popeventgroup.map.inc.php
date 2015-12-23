@@ -7,7 +7,7 @@ $xpdo_meta_map['popEventGroup']= array (
   'fields' => 
   array (
     'event_id' => NULL,
-    'parent' => NULL,
+    'parent' => 0,
     'name' => NULL,
     'rank' => NULL,
     'active' => 1,
@@ -23,6 +23,7 @@ $xpdo_meta_map['popEventGroup']= array (
       'attributes' => 'unsigned',
       'phptype' => 'integer',
       'null' => false,
+      'index' => 'index',
     ),
     'parent' => 
     array (
@@ -31,7 +32,7 @@ $xpdo_meta_map['popEventGroup']= array (
       'attributes' => 'unsigned',
       'phptype' => 'integer',
       'null' => false,
-      'index' => 'index',
+      'default' => 0,
     ),
     'name' => 
     array (
@@ -74,14 +75,20 @@ $xpdo_meta_map['popEventGroup']= array (
   ),
   'indexes' => 
   array (
-    'parentrank' => 
+    'eventparentrank' => 
     array (
-      'alias' => 'parentrank',
+      'alias' => 'eventparentrank',
       'primary' => false,
       'unique' => true,
       'type' => 'BTREE',
       'columns' => 
       array (
+        'event_id' => 
+        array (
+          'length' => '',
+          'collation' => 'A',
+          'null' => false,
+        ),
         'parent' => 
         array (
           'length' => '',

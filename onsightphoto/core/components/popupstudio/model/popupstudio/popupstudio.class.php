@@ -1,5 +1,5 @@
 <?php
-class PopUpStudio {
+class PopupStudio {
     public $modx;
     public $config = array();
     function __construct(modX &$modx,array $config = array()) {

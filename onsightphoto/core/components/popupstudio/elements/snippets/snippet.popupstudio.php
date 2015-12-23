@@ -1,6 +1,6 @@
 <?php
 $pop = $modx->getService('popupstudio','PopUpStudio',$modx->getOption('popupstudio.core_path',null,$modx->getOption('core_path').'components/popupstudio/').'model/popupstudio/',$scriptProperties);
-if (!($pop instanceof PopUpStudio)) return '';
+if (!($pop instanceof PopupStudio)) return '';
 
 /* setup default properties */
 $tpl = $modx->getOption('tpl',$scriptProperties,'rowTpl');

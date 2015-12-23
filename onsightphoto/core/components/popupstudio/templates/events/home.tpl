@@ -1,0 +1,1 @@
+<div id="pop-panel-events-home"></div>

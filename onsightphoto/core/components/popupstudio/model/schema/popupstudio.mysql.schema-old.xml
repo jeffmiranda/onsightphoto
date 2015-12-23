@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model package="popupstudio" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
-	<object class="popModUser" extends="modUser">
-        <composite alias="Manifest" class="popManifest" local="id" foreign="created_by" cardinality="many" owner="local" />
-        <composite alias="Manifest" class="popManifest" local="id" foreign="applied_by" cardinality="many" owner="local" />
-    </object>
-	<object class="popEventGroup" table="event_groups" extends="xPDOSimpleObject">
+	<object class="EventGroups" table="event_groups" extends="xPDOSimpleObject">
 		<field key="event_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" index="index" />
 		<field key="parent" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" default="0" />
 		<field key="name" dbtype="varchar" precision="100" phptype="string" null="false" />
@@ -18,12 +14,8 @@
 			<column key="parent" length="" collation="A" null="false" />
 			<column key="rank" length="" collation="A" null="false" />
 		</index>
-		
-		<composite alias="Children" class="popEventGroup" local="id" foreign="parent" cardinality="many" owner="local" />
-        <aggregate alias="Parent" class="popEventGroup" local="parent" foreign="id" cardinality="one" owner="foreign" />
-        <aggregate alias="Event" class="popEvent" local="event_id" foreign="id" cardinality="one" owner="foreign" />
 	</object>
-	<object class="popEvent" table="events" extends="xPDOSimpleObject">
+	<object class="Events" table="events" extends="xPDOSimpleObject">
 		<field key="name" dbtype="varchar" precision="100" phptype="string" null="false" index="unique" />
 		<field key="default_inv_markup" dbtype="decimal" precision="4,3" attributes="unsigned" phptype="float" null="false" default="0.000" />
 		<field key="default_tax" dbtype="decimal" precision="4,3" attributes="unsigned" phptype="float" null="false" default="0.000" />
@@ -34,31 +26,22 @@
 		<index alias="name" name="name" primary="false" unique="true" type="BTREE" >
 			<column key="name" length="" collation="A" null="false" />
 		</index>
-		
-		<composite alias="EventGroup" class="popEventGroup" local="id" foreign="event_id" cardinality="many" owner="local" />
 	</object>
-	<object class="popGroupPhoto" table="group_photo" extends="xPDOSimpleObject">
+	<object class="GroupPhoto" table="group_photo" extends="xPDOSimpleObject">
 		<field key="group_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="photo_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="active" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="1" />
 		<field key="date_created" dbtype="date" phptype="date" null="false" />
 		<field key="last_modified" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP"  extra="on update current_timestamp" />
-		
-		<aggregate alias="Group" class="popGroup" local="group_id" foreign="id" cardinality="one" owner="foreign" />
-		<aggregate alias="Photo" class="popPhoto" local="photo_id" foreign="id" cardinality="one" owner="foreign" />
 	</object>
-	<object class="popGroup" table="groups" extends="xPDOSimpleObject">
+	<object class="Groups" table="groups" extends="xPDOSimpleObject">
 		<field key="event_group_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="name" dbtype="varchar" precision="100" phptype="string" null="false" />
 		<field key="active" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="1" />
 		<field key="date_created" dbtype="date" phptype="date" null="false" />
 		<field key="last_modified" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP"  extra="on update current_timestamp" />
-		
-		<aggregate alias="EventGroup" class="popEventGroup" local="event_group_id" foreign="id" cardinality="one" owner="foreign" />
-		<composite alias="GroupPhoto" class="popGroupPhoto" local="id" foreign="group_id" cardinality="many" owner="local" />
-		<composite alias="ManifestGroup" class="popManifestGroup" local="id" foreign="group_id" cardinality="many" owner="local" />
 	</object>
-	<object class="popManifestGroup" table="manifest_group" extends="xPDOSimpleObject">
+	<object class="ManifestGroup" table="manifest_group" extends="xPDOSimpleObject">
 		<field key="manifest_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="group_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="true" />
 		<field key="group_name" dbtype="varchar" precision="100" phptype="string" null="true" />
@@ -69,32 +52,21 @@
 		<field key="active" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="1" />
 		<field key="date_created" dbtype="date" phptype="date" null="false" />
 		<field key="last_modified" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP"  extra="on update current_timestamp" />
-		
-		<aggregate alias="Group" class="popGroup" local="group_id" foreign="id" cardinality="one" owner="foreign" />
-		<aggregate alias="Manifest" class="popManifest" local="manifest_id" foreign="id" cardinality="one" owner="foreign" />
 	</object>
-	<object class="popManifest" table="manifests" extends="xPDOSimpleObject">
+	<object class="Manifests" table="manifests" extends="xPDOSimpleObject">
 		<field key="event_group_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="created_by" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="applied_by" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="active" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="1" />
 		<field key="date_created" dbtype="date" phptype="date" null="false" />
 		<field key="last_modified" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP"  extra="on update current_timestamp" />
-		
-		<aggregate alias="EventGroup" class="popEventGroup" local="event_group_id" foreign="id" cardinality="one" owner="foreign" />
-		<aggregate alias="CreatedBy" class="popModUser" local="created_by" foreign="id" cardinality="one" owner="foreign" />
-		<aggregate alias="AppliedBy" class="popModUser" local="applied_by" foreign="id" cardinality="one" owner="foreign" />
-		<composite alias="ManifestGroup" class="popManifestGroup" local="id" foreign="manifest_id" cardinality="many" owner="local" />
 	</object>
-	<object class="popPhoto" table="photos" extends="xPDOSimpleObject">
+	<object class="Photos" table="photos" extends="xPDOSimpleObject">
 		<field key="event_id" dbtype="int" precision="10" attributes="unsigned" phptype="integer" null="false" />
 		<field key="src_folder" dbtype="varchar" precision="100" phptype="string" null="false" />
 		<field key="src_filenname" dbtype="varchar" precision="100" phptype="string" null="false" />
 		<field key="active" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="1" />
 		<field key="date_created" dbtype="date" phptype="date" null="false" />
 		<field key="last_modified" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP"  extra="on update current_timestamp" />
-		
-		<aggregate alias="Event" class="popEvent" local="event_id" foreign="id" cardinality="one" owner="foreign" />
-		<composite alias="GroupPhoto" class="popGroupPhoto" local="id" foreign="photo_id" cardinality="many" owner="local" />
 	</object>
 </model>
